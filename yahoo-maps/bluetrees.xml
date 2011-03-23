@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:ymaps="http://api.maps.yahoo.com/Maps/V2/AnnotatedMaps.xsd">
+<channel>
+  <title>Blue Trees Locations</title>
+  <link><![CDATA[http://blue-trees.charlesdietrich.com]]></link>
+  <description>Locations of Blue trees on Cornell Campus</description>
+  <ymaps:Groups>
+    <Group>
+      <Title>Blue Trees</Title>
+      <Id>bluetrees</Id>
+      <BaseIcon width="50" height="69"><![CDATA[http://blue-trees.charlesdietrich.com/yahoo-maps/bluetree4.png]]></BaseIcon>
+    </Group>
+    <group>
+    <Title>Black Trees</Title>
+      <Id>blacktrees</Id>
+      <BaseIcon width="50" height="69"><![CDATA[http://blue-trees.charlesdietrich.com//yahoo-maps/bluetree4.png]]></BaseIcon>
+    </group>
+    <group>
+      <Title>Blue Trees Forest</Title>
+      <Id>bluetreesforest</Id>
+      <BaseIcon width="50" height="58"><![CDATA[http://blue-trees.charlesdietrich.com/yahoo-maps/bluetreeforest.png]]></BaseIcon>
+    </group>
+    </ymaps:Groups>
+
+  <item>
+    <title>West Campus - Sydney</title>
+    <link><![CDATA[http://blue-trees-blog.charlesdietrich.com/2007/11/18/west-campus.html]]></link>
+    <description>Climatologists warn that climate change will not only increase sea levels in Sydney, it will create a much drier, hotter climate for the city.
+source: Climate Change Impacts on Australia and the Benefits of Early Action to Reduce Global Greenhouse Gas Emissions
+</description>
+<geo:lat>42.447409347189215</geo:lat>
+<geo:long>-76.4878249168396</geo:long>
+    <ymaps:GroupId>bluetrees</ymaps:GroupId>
+  </item>
+  <item>
+    <title>Engineering Quad - Shanghai</title>
+    <link><![CDATA[http://blue-trees-blog.charlesdietrich.com/2007/11/18/engineering-quad.html]]></link>
+    <description>The blue bands represent the estimated sea level increases in Shanghai. Sea levels will increase 3 feet by the year 2100, 4.5 feet by 2150, and 6 feet by 2200. With all of Shanghai under water, approximately 20 million people would be displaced. According to Chinese meteorologists, Shanghai will face an increase [...]</description>
+<geo:lat>42.444535491070454</geo:lat>
+<geo:long>-76.48386597633362</geo:long>
+    <ymaps:GroupId>bluetrees</ymaps:GroupId>
+  </item>
+  <item>
+    <title>Aq Quad - Boston</title>
+    <link><![CDATA[http://blue-trees-blog.charlesdietrich.com/2007/11/18/ag-quad.html]]></link>
+    <description>The blue bands represent the estimated sea level increases in Boston. Sea levels will increase 3 feet by the year 2100, 4.5 feet by 2150, and 6 feet by 2200. By 2050 flood waters associated with hundred year events could be occurring every 30 years. Flooding would spread to Harvard Square, [...]</description>
+<geo:lat>42.44858893591712</geo:lat>
+<geo:long>-76.47746086120607</geo:long>
+    <ymaps:GroupId>bluetrees</ymaps:GroupId>
+  </item>
+
+  <item>
+    <title>Ho Plaza - New York City</title>
+    <link><![CDATA[http://blue-trees-blog.charlesdietrich.com/2007/11/18/ho-plaza.html]]></link>
+    <description>The trees in Ho Plaza represent the estimated sea level rise in New York City between the years 2025 and 2250. The increases range from 9 inches in 2025 to 7.5 feet in 2250. Even slight sea level increases will increase the risk of storm related floods. A sea level rise of [...]</description>
+<geo:lat>42.44543803859734</geo:lat>
+<geo:long>-76.48505687713623</geo:long>
+    <ymaps:GroupId>bluetreesforest</ymaps:GroupId>
+  </item>
+  <item>
+    <title>Arts Quad - San Francisco</title>
+    <link><![CDATA[http://blue-trees-blog.charlesdietrich.com/2007/11/17/i-am-the-arts-quad.html]]></link>
+    <description><![CDATA[Sea level rise would threaten famous San Francisco landmarks including Boudin Bakery, Pier 39, Fisherman&#8217;s Wharf, and Baker Beach.]]></description>
+<geo:lat>42.4495</geo:lat>
+<geo:long>-76.4844</geo:long>
+    <ymaps:GroupId>bluetrees</ymaps:GroupId>
+  </item>
+</channel>
+</rss>

@@ -1,0 +1,95 @@
+<html>
+
+<head>
+
+<title>Black Trees</title>
+
+<link rel="stylesheet" href="css/mapstyle.css" type="text/css" media="screen" />
+
+<script src="http://api.maps.yahoo.com/ajaxymap?v=3.7&appid=hyS52uzV34HVU8fpKnqmCdT_1vQ47mus77Mn0Qlqpv4OBGiIG.DlRYzZkvMgdvN1CPPO"></script>
+<script>
+	function createMap(id, zip, zoom, url) {
+		var map = new YMap(document.getElementById(id));
+		map.setMapType(YAHOO_MAP_SAT);
+		map.addTypeControl();
+		map.addZoomLong();
+		map.addPanControl();
+		map.drawZoomAndCenter(zip, zoom);
+		map.addOverlay(new YGeoRSS(url));
+	}
+</script> 
+<style>
+#mapContainer { 
+height: 100%; 
+width: 100%; 
+} 
+</style> 
+</head>
+<body>
+<div style="float:left;width:250px;height=800px">
+
+	<div id="sidebar">
+	<ul>
+	<li id="text-4" class="widget widget_text"><img src="http://blue-trees.charlesdietrich.com/images/BlackTreesLogo.png" /></li>
+	</ul>
+	
+		<ul>
+					<li id="text-1" class="widget widget_text">			<h2 class="widgettitle">Blue Trees</h2>			<div class="textwidget">A project to raise awareness of global warming and climate change. A class project of SHUM 415, Environmental Interventions, Cornell University, Fall 2007. <a href="http://blue-trees-blog.charlesdietrich.com/p/about.html">more</a></div>
+
+		</li>	<li id="pages" class="widget widget_pages">		<h2 class="widgettitle">Pages</h2>		<ul>
+			<li class="page_item page-item-2"><a href="http://blue-trees-blog.charlesdietrich.com/p/about.html" title="About">About</a></li>
+<li class="page_item page-item-21"><a href="http://blue-trees-blog.charlesdietrich.com/" title="Blog">Blog</a></li>
+<li><a href="http://blue-trees-blog.charlesdietrich.com/2007/12/04/blue-trees-installation-video.html">Video</a></li>
+<li><a href="http://blue-trees.charlesdietrich.com/">Blue Trees</a></li>
+		</ul>
+
+	</li><li id="links" class="widget widget_links"><h2 class="widgettitle">Links</h2>
+	<ul>
+<li><a href="http://www.sustainithaca.org" rel="colleague">SustainIthaca.org</a></li>
+<li><a href="http://cornell.facebook.com/group.php?gid=2233994107" rel="colleague">Cornell Sustainability Hub Facebook group</a></li>
+<li><a href="http://stepitup2007.org/">Step It Up 2007</a> - a national movement to push government to combat climate change</li>
+<li><a href="http://www.carbonfootprint.com/" title="Carbon footprint calculator">Carbon Footprint</a> - calculate your personal environmental impact</li>
+<li><a href="http://cornell.facebook.com/group.php?gid=6921839778">I saw the blue trees!</a>- join our Facebook group and talk about climate change</li>
+
+	</ul>
+	</li>
+<li>
+<!-- Start of Flickr Badge -->
+<style type="text/css">
+.zg_div {margin:0px 5px 5px 0px; width:117px;}
+.zg_div_inner {border: solid 1px #000000; background-color:#ffffff;  color:#666666; text-align:center; font-family:arial, helvetica; font-size:11px;}
+.zg_div a, .zg_div a:hover, .zg_div a:visited {color:#3993ff; background:inherit !important; text-decoration:none !important;}
+</style>
+<script type="text/javascript">
+zg_insert_badge = function() {
+var zg_bg_color = 'ffffff';
+var zgi_url = 'http://www.flickr.com/apps/badge/badge_iframe.gne?zg_bg_color='+zg_bg_color+'&zg_context=in%2Fpool-bluetrees%2F&zg_group_id=597838%40N23&zg_tags=blue-trees&zg_tag_mode=any';
+document.write('<iframe style="background-color:#'+zg_bg_color+'; border-color:#'+zg_bg_color+'; border:none;" width="113" height="151" frameborder="0" scrolling="no" src="'+zgi_url+'" title="Flickr Badge"><\/iframe>');
+if (document.getElementById) document.write('<div id="zg_whatlink"><a href="http://www.flickr.com/badge.gne"	style="color:#3993ff;" onclick="zg_toggleWhat(); return false;">What is this?<\/a><\/div>');
+}
+zg_toggleWhat = function() {
+document.getElementById('zg_whatdiv').style.display = (document.getElementById('zg_whatdiv').style.display != 'none') ? 'none' : 'block';
+document.getElementById('zg_whatlink').style.display = (document.getElementById('zg_whatdiv').style.display != 'none') ? 'none' : 'block';
+return false;
+}
+</script>
+<div class="zg_div"><div class="zg_div_inner"><a href="http://www.flickr.com">www.<strong style="color:#3993ff">flick<span style="color:#ff1c92">r</span></strong>.com</a><br>
+<script type="text/javascript">zg_insert_badge();</script>
+<div id="zg_whatdiv">This is a Flickr badge showing public photos from the <a href="http://www.flickr.com/groups/597838@N23/pool/">BlueTrees group pool</a> tagged with <a href="http://www.flickr.com/groups/597838@N23/pool/tags/blue-trees">blue-trees</a>. Make your own badge <a href="http://www.flickr.com/badge.gne">here</a>.</div>
+<script type="text/javascript">if (document.getElementById) document.getElementById('zg_whatdiv').style.display = 'none';</script>
+</div>
+</div>
+<!-- End of Flickr Badge -->
+
+<li>
+		</ul>
+	</div>
+
+</div>
+<div id="mapContainer"></div>
+<script> 
+
+createMap('mapContainer', '14850', 3, 'http://blue-trees.charlesdietrich.com/yahoo-maps/blacktrees.xml'); 
+</script>
+</body>
+</html>

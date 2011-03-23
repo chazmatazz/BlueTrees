@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+xmlns:ymaps="http://api.maps.yahoo.com/Maps/V2/AnnotatedMaps.xsd">
+<channel>
+  <title>Black Trees Locations</title>
+  <link><![CDATA[hhttp://blue-trees.charlesdietrich.com/black-trees.html]]></link>
+  <description>Locations of Black trees on Cornell Campus</description>
+  <ymaps:Groups>
+    <Group>
+      <Title>Black Trees</Title>
+      <Id>blacktrees</Id>
+      <BaseIcon width="50" height="69"><![CDATA[http://blue-trees.charlesdietrich.comyahoo-maps/blacktree.png]]></BaseIcon>
+    </Group>
+    </ymaps:Groups>
+
+  <item>
+    <title>American Beech - East Avenue</title>
+    <link><![CDATA[http://blue-trees-blog.charlesdietrich.com/2007/12/10/american-beech-east-avenue.html]]></link>
+  <description>American beech is easily recognized by its smooth gray bark.
+ Within the range of beech, annual precipitation usually is from 760 mm to  1270 mm (30 to 50 in); however, some beech is found in Michigan where precipitation is about 580 mm (23 in), and in Canada where about 640 mm [...]</description>
+		<geo:lat>42.45094804673489</geo:lat>
+		<geo:long>-76.48309350013734</geo:long>
+    <ymaps:GroupId>blacktrees</ymaps:GroupId>
+  </item>
+  <item>
+    <title>American beech - Arts Quad</title>
+    <link><![CDATA[http://blue-trees-blog.charlesdietrich.com/2007/12/10/american-beech-arts-quad.html]]></link>
+    <description>Because of global warming, American beech like me may not be here in 150 years.
+
+Prasad, A. M., L. R. Iverson., S. Matthews., M. Peters. 2007-ongoing. A Climate Change Atlas for 134 Forest Tree Species of the Eastern United States [database]. http://www.nrs.fs.fed.us/atlas/tree, Northern Research Station, USDA Forest Service, Delaware, Ohio.
+ [...]</description>
+<geo:lat>42.449079764950746</geo:lat>
+<geo:long>-76.48506760597229</geo:long>
+    <ymaps:GroupId>blacktrees</ymaps:GroupId>
+  </item>
+  <item>
+    <title>Sugar Maple - Engineering Quad</title>
+    <link><![CDATA[http://blue-trees-blog.charlesdietrich.com/2007/12/10/sugar-maple-engineering-quad.html]]></link>
+    <description>Sugar Maples (Acer saccharum), one of the dominant species in the Ithaca area, will become less prevalent in the future due to climate change.
+Iverson, L., A. Prasad, and S. Matthews. 2008. Potential changes in suitable habitat for 134 tree species in the northeastern United States. Mitigation and Adaptation Strategies for Global Change. In press.
+ [...]</description>
+		<geo:lat>42.44494718102887</geo:lat>
+		<geo:long>-76.48493885993958</geo:long>
+    <ymaps:GroupId>blacktrees</ymaps:GroupId>
+  </item>
+
+  <item>
+    <title>Sugar Maple - Ho Plaza</title>
+    <link><![CDATA[http://blue-trees-blog.charlesdietrich.com//2007/12/10/sugar-maple-ho-plaza.html]]></link>
+    <description>As long as the total movement of isotherms toward the poles is much smaller than the size of the habitat, or the ranges in which the animals live, the effect on species is limited. But now the movement is inexorably toward the poles and totals more than a hundred miles over the past several decades. [...]</description>
+<geo:lat>42.446269320868666</geo:lat>
+		<geo:long>-76.48521780967712</geo:long>
+    <ymaps:GroupId>blacktrees</ymaps:GroupId>
+  </item>
+  </channel>
+</rss>
